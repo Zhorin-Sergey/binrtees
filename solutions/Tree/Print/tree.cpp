@@ -67,7 +67,7 @@ void obr(Nodde *n) {
       tmp1 = st.top();
       if (tmp1->right != 0 && lnp != tmp1->right) {
         tmp = tmp1->right;
-	  } else {
+      } else {
         st.pop();
         std::cout << tmp1->key << " ";
         lnp = tmp1;
